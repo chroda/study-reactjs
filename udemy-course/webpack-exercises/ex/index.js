@@ -1,3 +1,4 @@
-const logger = require('./logger');
+import People from './people';
 
-logger.info('Usando o padrão commonjs');
+const people = new People('chroda');
+console.log(people.toString());
