@@ -1,14 +1,7 @@
-const product = {
-  name: 'pen black',
-  price: 1.90,
-  discount: .05
-}
+import 'react';
 
-function clone(object) {
-  return {...object}
-}
+export default props => (
+  <h1>Olá</h1>
+)
 
-const newProduct = clone(product);
-newProduct.name = 'pen blue';
-
-console.log(product, newProduct);
+console.log('work it');
