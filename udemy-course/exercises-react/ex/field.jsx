@@ -22,4 +22,10 @@ class Field extends Component {
   }
 }
 
-export default Field;
+function mapStateToProps(state){
+  return {
+    value: state.field.value
+  }
+}
+
+export default connect(mapStateToProps)(Field);
