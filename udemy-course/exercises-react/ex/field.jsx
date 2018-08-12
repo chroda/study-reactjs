@@ -5,8 +5,8 @@ class Field extends Component {
   render() {
     return (
       <div>
-        <label>{this.state.value}</label><br />
-        <input onChange={this.handleChange} value={this.state.value} />
+        <label>{this.props.value}</label><br />
+        <input onChange={this.handleChange} value={this.props.value} />
       </div>
     )
   }
