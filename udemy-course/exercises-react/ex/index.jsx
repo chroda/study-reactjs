@@ -9,5 +9,7 @@ const reducers = combineReducers({
 });
 
 ReactDOM.render(
-  <Field initialValue='testing' />
+  <Provider store={createStore(reducers)}>
+    <Field initialValue='testing' />
+  </Provider>
   , document.getElementById('app'));
