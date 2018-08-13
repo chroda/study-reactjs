@@ -9,15 +9,12 @@ export const changeDescription = event => ({
 
 export const search = () => {
   const request = axios.get(`${URL}?sort=-creatAt`);
-  return {
-    type: 'TODO_SEARCHED',
-    payload: request
-  }
+  return { type: 'TODO_SEARCHED', payload: request }
 }
 
 export const add = (description) => {
   return dispatch => {
-    axios.post(URL, {description} ).then(resp => dispatch({ type: 'TODO_ADDED', payload: resp.data })).then(() => dispatch(search()));
+    axios.post(URL, {description} ).then(() => dispatch(clear())).then(() => dispatch(search()));
   }
 }
 
@@ -39,3 +36,6 @@ export const remove = (todo) => {
   }
 }
 
+export const clear = () => {
+  return { type: 'TODO_CLEAR' }
+}
