@@ -12,9 +12,7 @@ class TodoForm extends Component {
     this.keyHander = this.keyHander.bind(this);
   }
 
-  componentWillMount() {
-    this.props.search();
-  }
+  componentWillMount() { this.props.search(); }
 
   keyHander(e) {
     const { add, search, clear, description } = this.props;
@@ -40,7 +38,7 @@ class TodoForm extends Component {
         </Grid>
         <Grid cols='12 3 2'>
           <IconButton style='primary' icon='plus' onClick={() => add(description)} />
-          <IconButton style='info' icon='search' onClick={() => search()} />
+          <IconButton style='info' icon='search' onClick={search} />
           <IconButton style='default' icon='close' onClick={() => clear()} />
         </Grid>
       </div>
