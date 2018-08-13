@@ -17,23 +17,25 @@ export const search = () => {
 
 export const add = (description) => {
   return dispatch => {
-    axios.post(URL, {description} )
-    .then(resp => dispatch({ type: 'TODO_ADDED', payload: resp.data }))
-    .then(() => dispatch(search()));
+    axios.post(URL, {description} ).then(resp => dispatch({ type: 'TODO_ADDED', payload: resp.data })).then(() => dispatch(search()));
   }
 }
 
 export const markAsDone = (todo) => {
   return dispatch => {
-    axios.put(`${URL}/${todo._id}`, { ...todo, done: true })
-    .then(() => dispatch(search()));
+    axios.put(`${URL}/${todo._id}`, { ...todo, done: true }).then(() => dispatch(search()));
   }
 }
 
 export const markAsPending = (todo) => {
   return dispatch => {
-    axios.put(`${URL}/${todo._id}`, { ...todo, done: false })
-    .then(() => dispatch(search()));
+    axios.put(`${URL}/${todo._id}`, { ...todo, done: false }).then(() => dispatch(search()));
+  }
+}
+
+export const remove = (todo) => {
+  return dispatch => {
+    axios.delete(`${URL}/${todo._id}`).then(() => dispatch(search()));
   }
 }
 
