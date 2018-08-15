@@ -13,4 +13,4 @@ export default props => (
     </Route>
     <Redirect from='*' to='/' />
   </Router>
-)
+);
