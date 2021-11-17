@@ -1,0 +1,790 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App snapshot test 1`] = `
+<div>
+  <div
+    className="navbar-fixed"
+  >
+    <nav
+      className="blue lighten-2"
+    >
+      <div
+        className="nav-wrapper"
+      >
+        <a
+          className="brand-logo center"
+          href="/"
+        >
+          Course list
+        </a>
+      </div>
+    </nav>
+  </div>
+  <div>
+    <div>
+      <div
+        className="row"
+      >
+        <ul>
+          <li
+            className="col l6 s12"
+          >
+            <div
+              className="card"
+            >
+              <div
+                className="card-image"
+              >
+                <img
+                  alt="Building an App with ReactJS and MeteorJS"
+                  src="https://cdn.lynda.com/course/533228/533228-636179098122239600-16x9.jpg"
+                />
+              </div>
+              <div
+                className="card-content"
+              >
+                <span
+                  className="card-title"
+                >
+                  Building an App with ReactJS and MeteorJS
+                </span>
+                <p>
+                  Meteor and React are a powerhouse combination. Meteor gives you a fast, easy-to-use solution for data management across clients and servers, and React gives you a way to structure your app's UI from reusable components. The combination allows you to create your dream apps: dynamic, data driven, and cross-platform.
+                </p>
+                <div
+                  className="row"
+                >
+                  <div
+                    className="col l6 center"
+                  >
+                    <blockquote>
+                      <h5>
+                        Released: 
+                        12/21/2016
+                      </h5>
+                    </blockquote>
+                  </div>
+                  <div
+                    className="col l6 center"
+                  >
+                    <blockquote>
+                      <h5>
+                        Views: 
+                        31,266
+                      </h5>
+                    </blockquote>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="card-action"
+              >
+                <a
+                  href="https://www.lynda.com/React-js-tutorials/Building-App-React-js-MeteorJS/533228-2.html"
+                  target="noopener _blank"
+                >
+                  Link to course
+                </a>
+              </div>
+            </div>
+            <br />
+          </li>
+          <li
+            className="col l6 s12"
+          >
+            <div
+              className="card"
+            >
+              <div
+                className="card-image"
+              >
+                <img
+                  alt="React Native Ecosystem and Workflow"
+                  src="https://cdn.lynda.com/course/560206/560206-636244054803771570-16x9.jpg"
+                />
+              </div>
+              <div
+                className="card-content"
+              >
+                <span
+                  className="card-title"
+                >
+                  React Native Ecosystem and Workflow
+                </span>
+                <p>
+                  React Native makes it easy to develop applications and then deploy them natively to multiple mobile platforms.
+                </p>
+                <div
+                  className="row"
+                >
+                  <div
+                    className="col l6 center"
+                  >
+                    <blockquote>
+                      <h5>
+                        Released: 
+                        3/8/2017
+                      </h5>
+                    </blockquote>
+                  </div>
+                  <div
+                    className="col l6 center"
+                  >
+                    <blockquote>
+                      <h5>
+                        Views: 
+                        5,618
+                      </h5>
+                    </blockquote>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="card-action"
+              >
+                <a
+                  href="https://www.lynda.com/React-Native-tutorials/React-Native-Ecosystem-Workflow/560206-2.html"
+                  target="noopener _blank"
+                >
+                  Link to course
+                </a>
+              </div>
+            </div>
+            <br />
+          </li>
+          <li
+            className="col l6 s12"
+          >
+            <div
+              className="card"
+            >
+              <div
+                className="card-image"
+              >
+                <img
+                  alt="From React to React Native"
+                  src="https://cdn.lynda.com/course/577371/577371-636271681889296588-16x9.jpg"
+                />
+              </div>
+              <div
+                className="card-content"
+              >
+                <span
+                  className="card-title"
+                >
+                  From React to React Native
+                </span>
+                <p>
+                  With React Native, you can leverage your existing React knowledge to build native iOS and Android apps. In this course, explore the different components that make up a basic React Native application, and learn how to use this platform to build your own native projects.
+                </p>
+                <div
+                  className="row"
+                >
+                  <div
+                    className="col l6 center"
+                  >
+                    <blockquote>
+                      <h5>
+                        Released: 
+                        4/11/2017
+                      </h5>
+                    </blockquote>
+                  </div>
+                  <div
+                    className="col l6 center"
+                  >
+                    <blockquote>
+                      <h5>
+                        Views: 
+                        TBD
+                      </h5>
+                    </blockquote>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="card-action"
+              >
+                <a
+                  href="https://www.lynda.com/React-Native-tutorials/From-React-React-Native/577371-2.html"
+                  target="noopener _blank"
+                >
+                  Link to course
+                </a>
+              </div>
+            </div>
+            <br />
+          </li>
+          <li
+            className="col l6 s12"
+          >
+            <div
+              className="card"
+            >
+              <div
+                className="card-image"
+              >
+                <img
+                  alt="Framer for UX Design"
+                  src="https://cdn.lynda.com/course/562923/562923-636250874641759804-16x9.jpg"
+                />
+              </div>
+              <div
+                className="card-content"
+              >
+                <span
+                  className="card-title"
+                >
+                  Framer for UX Design
+                </span>
+                <p>
+                  You can use Framer to create JavaScript-based app prototypes quickly and easily. UX designers, engineers, interaction designers, and more can get refreshed on UX fundamentals in this course, and then dive into navigating Framer.
+                </p>
+                <div
+                  className="row"
+                >
+                  <div
+                    className="col l6 center"
+                  >
+                    <blockquote>
+                      <h5>
+                        Released: 
+                        03/16/2017
+                      </h5>
+                    </blockquote>
+                  </div>
+                  <div
+                    className="col l6 center"
+                  >
+                    <blockquote>
+                      <h5>
+                        Views: 
+                        3,570
+                      </h5>
+                    </blockquote>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="card-action"
+              >
+                <a
+                  href="https://www.lynda.com/FramerJS-tutorials/UX-Design-Tools-Framer/562923-2.html"
+                  target="noopener _blank"
+                >
+                  Link to course
+                </a>
+              </div>
+            </div>
+            <br />
+          </li>
+          <li
+            className="col l6 s12"
+          >
+            <div
+              className="card"
+            >
+              <div
+                className="card-image"
+              >
+                <img
+                  alt="Migrating to Typescript 2"
+                  src="https://cdn.lynda.com/course/585078/585078-636270752903315067-16x9.jpg"
+                />
+              </div>
+              <div
+                className="card-content"
+              >
+                <span
+                  className="card-title"
+                >
+                  Migrating to Typescript 2
+                </span>
+                <p>
+                  TypeScript is a newer Microsoft language built on JavaScript that is finding wide adoption in the Microsoft, Google, and Angular communities. Like many things JavaScript these days, TypeScript is changing rapidly as it grows. This course introduces the latest enhancements of this rapidly evolving language including kinds of types, approaches for interacting with types, and more.
+                </p>
+                <div
+                  className="row"
+                >
+                  <div
+                    className="col l6 center"
+                  >
+                    <blockquote>
+                      <h5>
+                        Released: 
+                        04/10/2017
+                      </h5>
+                    </blockquote>
+                  </div>
+                  <div
+                    className="col l6 center"
+                  >
+                    <blockquote>
+                      <h5>
+                        Views: 
+                        TBD
+                      </h5>
+                    </blockquote>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="card-action"
+              >
+                <a
+                  href="https://www.lynda.com/JavaScript-tutorials/Migrating-TypeScript-2/585078-2.html"
+                  target="noopener _blank"
+                >
+                  Link to course
+                </a>
+              </div>
+            </div>
+            <br />
+          </li>
+          <li
+            className="col l6 s12"
+          >
+            <div
+              className="card"
+            >
+              <div
+                className="card-image"
+              >
+                <img
+                  alt="Learning Redux"
+                  src="https://cdn.lynda.com/course/540345/540345-636178326778026710-16x9.jpg"
+                />
+              </div>
+              <div
+                className="card-content"
+              >
+                <span
+                  className="card-title"
+                >
+                  Learning Redux
+                </span>
+                <p>
+                  Redux is a JavaScript library for managing client data in apps. You can use Redux together with React or with any other view library. Inspired by Flux, Redux attempts to make state mutations predictable by imposing certain restrictions on how and when updates can happen. 
+                </p>
+                <div
+                  className="row"
+                >
+                  <div
+                    className="col l6 center"
+                  >
+                    <blockquote>
+                      <h5>
+                        Released: 
+                        12/23/2016
+                      </h5>
+                    </blockquote>
+                  </div>
+                  <div
+                    className="col l6 center"
+                  >
+                    <blockquote>
+                      <h5>
+                        Views: 
+                        21,833
+                      </h5>
+                    </blockquote>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="card-action"
+              >
+                <a
+                  href="https://www.lynda.com/React-js-tutorials/Learning-Redux/540345-2.html?srchtrk=index%3a9%0alinktypeid%3a2%0aq%3aReact%0apage%3a1%0as%3arelevance%0asa%3atrue%0aproducttypeid%3a2"
+                  target="noopener _blank"
+                >
+                  Link to course
+                </a>
+              </div>
+            </div>
+            <br />
+          </li>
+          <li
+            className="col l6 s12"
+          >
+            <div
+              className="card"
+            >
+              <div
+                className="card-image"
+              >
+                <img
+                  alt="Building a Web Interface with React.js"
+                  src="https://cdn.lynda.com/course/495271/495271-636051283523699944-16x9.jpg"
+                />
+              </div>
+              <div
+                className="card-content"
+              >
+                <span
+                  className="card-title"
+                >
+                  Building a Web Interface with React.js
+                </span>
+                <p>
+                  React is a JavaScript library for creating user interfaces that display dynamic data. Because of its reusable components and unique data rendering approach, the web interfaces you create with React are flexible, fast, and lightweight.
+                </p>
+                <div
+                  className="row"
+                >
+                  <div
+                    className="col l6 center"
+                  >
+                    <blockquote>
+                      <h5>
+                        Released: 
+                        07/26/2016
+                      </h5>
+                    </blockquote>
+                  </div>
+                  <div
+                    className="col l6 center"
+                  >
+                    <blockquote>
+                      <h5>
+                        Views: 
+                        62,462
+                      </h5>
+                    </blockquote>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="card-action"
+              >
+                <a
+                  href="https://www.lynda.com/React-js-tutorials/Building-Web-Interface-React-js/495271-2.html?srchtrk=index%3a4%0alinktypeid%3a2%0aq%3aReact%0apage%3a1%0as%3arelevance%0asa%3atrue%0aproducttypeid%3a2"
+                  target="noopener _blank"
+                >
+                  Link to course
+                </a>
+              </div>
+            </div>
+            <br />
+          </li>
+          <li
+            className="col l6 s12"
+          >
+            <div
+              className="card"
+            >
+              <div
+                className="card-image"
+              >
+                <img
+                  alt="Building an App with ReactJS and MeteorJS"
+                  src="https://cdn.lynda.com/course/533228/533228-636179098122239600-16x9.jpg"
+                />
+              </div>
+              <div
+                className="card-content"
+              >
+                <span
+                  className="card-title"
+                >
+                  Building an App with ReactJS and MeteorJS
+                </span>
+                <p>
+                  Meteor and React are a powerhouse combination. Meteor gives you a fast, easy-to-use solution for data management across clients and servers, and React gives you a way to structure your app's UI from reusable components. The combination allows you to create your dream apps: dynamic, data driven, and cross-platform.
+                </p>
+                <div
+                  className="row"
+                >
+                  <div
+                    className="col l6 center"
+                  >
+                    <blockquote>
+                      <h5>
+                        Released: 
+                        12/21/2016
+                      </h5>
+                    </blockquote>
+                  </div>
+                  <div
+                    className="col l6 center"
+                  >
+                    <blockquote>
+                      <h5>
+                        Views: 
+                        31,266
+                      </h5>
+                    </blockquote>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="card-action"
+              >
+                <a
+                  href="https://www.lynda.com/React-js-tutorials/Building-App-React-js-MeteorJS/533228-2.html"
+                  target="noopener _blank"
+                >
+                  Link to course
+                </a>
+              </div>
+            </div>
+            <br />
+          </li>
+          <li
+            className="col l6 s12"
+          >
+            <div
+              className="card"
+            >
+              <div
+                className="card-image"
+              >
+                <img
+                  alt="React Native Ecosystem and Workflow"
+                  src="https://cdn.lynda.com/course/560206/560206-636244054803771570-16x9.jpg"
+                />
+              </div>
+              <div
+                className="card-content"
+              >
+                <span
+                  className="card-title"
+                >
+                  React Native Ecosystem and Workflow
+                </span>
+                <p>
+                  React Native makes it easy to develop applications and then deploy them natively to multiple mobile platforms.
+                </p>
+                <div
+                  className="row"
+                >
+                  <div
+                    className="col l6 center"
+                  >
+                    <blockquote>
+                      <h5>
+                        Released: 
+                        3/8/2017
+                      </h5>
+                    </blockquote>
+                  </div>
+                  <div
+                    className="col l6 center"
+                  >
+                    <blockquote>
+                      <h5>
+                        Views: 
+                        5,618
+                      </h5>
+                    </blockquote>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="card-action"
+              >
+                <a
+                  href="https://www.lynda.com/React-Native-tutorials/React-Native-Ecosystem-Workflow/560206-2.html"
+                  target="noopener _blank"
+                >
+                  Link to course
+                </a>
+              </div>
+            </div>
+            <br />
+          </li>
+          <li
+            className="col l6 s12"
+          >
+            <div
+              className="card"
+            >
+              <div
+                className="card-image"
+              >
+                <img
+                  alt="From React to React Native"
+                  src="https://cdn.lynda.com/course/577371/577371-636271681889296588-16x9.jpg"
+                />
+              </div>
+              <div
+                className="card-content"
+              >
+                <span
+                  className="card-title"
+                >
+                  From React to React Native
+                </span>
+                <p>
+                  With React Native, you can leverage your existing React knowledge to build native iOS and Android apps. In this course, explore the different components that make up a basic React Native application, and learn how to use this platform to build your own native projects.
+                </p>
+                <div
+                  className="row"
+                >
+                  <div
+                    className="col l6 center"
+                  >
+                    <blockquote>
+                      <h5>
+                        Released: 
+                        4/11/2017
+                      </h5>
+                    </blockquote>
+                  </div>
+                  <div
+                    className="col l6 center"
+                  >
+                    <blockquote>
+                      <h5>
+                        Views: 
+                        TBD
+                      </h5>
+                    </blockquote>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="card-action"
+              >
+                <a
+                  href="https://www.lynda.com/React-Native-tutorials/From-React-React-Native/577371-2.html"
+                  target="noopener _blank"
+                >
+                  Link to course
+                </a>
+              </div>
+            </div>
+            <br />
+          </li>
+          <li
+            className="col l6 s12"
+          >
+            <div
+              className="card"
+            >
+              <div
+                className="card-image"
+              >
+                <img
+                  alt="Framer for UX Design"
+                  src="https://cdn.lynda.com/course/562923/562923-636250874641759804-16x9.jpg"
+                />
+              </div>
+              <div
+                className="card-content"
+              >
+                <span
+                  className="card-title"
+                >
+                  Framer for UX Design
+                </span>
+                <p>
+                  You can use Framer to create JavaScript-based app prototypes quickly and easily. UX designers, engineers, interaction designers, and more can get refreshed on UX fundamentals in this course, and then dive into navigating Framer.
+                </p>
+                <div
+                  className="row"
+                >
+                  <div
+                    className="col l6 center"
+                  >
+                    <blockquote>
+                      <h5>
+                        Released: 
+                        03/16/2017
+                      </h5>
+                    </blockquote>
+                  </div>
+                  <div
+                    className="col l6 center"
+                  >
+                    <blockquote>
+                      <h5>
+                        Views: 
+                        3,570
+                      </h5>
+                    </blockquote>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="card-action"
+              >
+                <a
+                  href="https://www.lynda.com/FramerJS-tutorials/UX-Design-Tools-Framer/562923-2.html"
+                  target="noopener _blank"
+                >
+                  Link to course
+                </a>
+              </div>
+            </div>
+            <br />
+          </li>
+          <li
+            className="col l6 s12"
+          >
+            <div
+              className="card"
+            >
+              <div
+                className="card-image"
+              >
+                <img
+                  alt="Migrating to Typescript 2"
+                  src="https://cdn.lynda.com/course/585078/585078-636270752903315067-16x9.jpg"
+                />
+              </div>
+              <div
+                className="card-content"
+              >
+                <span
+                  className="card-title"
+                >
+                  Migrating to Typescript 2
+                </span>
+                <p>
+                  TypeScript is a newer Microsoft language built on JavaScript that is finding wide adoption in the Microsoft, Google, and Angular communities. Like many things JavaScript these days, TypeScript is changing rapidly as it grows. This course introduces the latest enhancements of this rapidly evolving language including kinds of types, approaches for interacting with types, and more.
+                </p>
+                <div
+                  className="row"
+                >
+                  <div
+                    className="col l6 center"
+                  >
+                    <blockquote>
+                      <h5>
+                        Released: 
+                        04/10/2017
+                      </h5>
+                    </blockquote>
+                  </div>
+                  <div
+                    className="col l6 center"
+                  >
+                    <blockquote>
+                      <h5>
+                        Views: 
+                        TBD
+                      </h5>
+                    </blockquote>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="card-action"
+              >
+                <a
+                  href="https://www.lynda.com/JavaScript-tutorials/Migrating-TypeScript-2/585078-2.html"
+                  target="noopener _blank"
+                >
+                  Link to course
+                </a>
+              </div>
+            </div>
+            <br />
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+`;
