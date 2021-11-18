@@ -1,5 +1,5 @@
 import { createStore, combineReducers } from "redux";
-import todos from "./todos/reducers";
+import { todos } from "./todos/reducers.js";
 
 const reducers = {
   todos,
