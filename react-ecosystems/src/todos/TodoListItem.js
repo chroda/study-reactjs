@@ -6,7 +6,10 @@ const TodoListItem = ({ todo, onRemovePressed }) => (
     <h3>{todo.text}</h3>
     <div className="buttons-container">
       <button className="completed-button">Mark As completed</button>
-      <button onClick={onRemovePressed(todo.text)} className="remove-button">
+      <button
+        onClick={() => onRemovePressed(todo.text)}
+        className="remove-button"
+      >
         Remove
       </button>
     </div>

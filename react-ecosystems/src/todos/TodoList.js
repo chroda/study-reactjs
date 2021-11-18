@@ -8,8 +8,8 @@ import "./TodoList.css";
 const TodoList = ({ todos = [], onRemovePressed }) => (
   <div className="list-wrapper">
     <NewTodoForm />
-    {todos.map((todo) => (
-      <TodoListItem todo={todo} onRemovePressed={onRemovePressed} />
+    {todos.map((todo, index) => (
+      <TodoListItem key={index} todo={todo} onRemovePressed={onRemovePressed} />
     ))}
   </div>
 );
