@@ -11,9 +11,9 @@ export const removeTodo = (todo) => ({
 });
 
 export const MARK_TODO_AS_COMPLETED = "MARK_TODO_AS_COMPLETED";
-export const markTodoAsCompleted = (text) => ({
+export const markTodoAsCompleted = (todo) => ({
   type: MARK_TODO_AS_COMPLETED,
-  payload: { text },
+  payload: { todo },
 });
 
 export const LOAD_TODOS_IN_PROGRESS = "LOAD_TODOS_IN_PROGRESS";
