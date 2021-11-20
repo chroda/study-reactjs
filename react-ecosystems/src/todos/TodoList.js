@@ -2,7 +2,12 @@ import React, { useEffect } from "react";
 import { connect } from "react-redux";
 import NewTodoForm from "./NewTodoForm";
 import TodoListItem from "./TodoListItem";
-import { getTodos, getTodosLoading } from "./selector";
+import {
+  getTodos,
+  getTodosLoading,
+  getCompleteTodos,
+  getIncompleteTodos,
+} from "./selector";
 import {
   loadTodos,
   removeTodoRequest,
@@ -11,7 +16,8 @@ import {
 import "./TodoList.css";
 
 const TodoList = ({
-  todos = [],
+  completedTodos,
+  incompletedTodos,
   onRemovePressed,
   onCompletedPressed,
   isLoading,
@@ -25,7 +31,17 @@ const TodoList = ({
   const content = (
     <div className="list-wrapper">
       <NewTodoForm />
-      {todos.map((todo, index) => (
+      <h3>Incomplete</h3>
+      {incompletedTodos.map((todo, index) => (
+        <TodoListItem
+          key={index}
+          todo={todo}
+          onRemovePressed={onRemovePressed}
+          onCompletedPressed={onCompletedPressed}
+        />
+      ))}
+      <h3>Complete</h3>
+      {completedTodos.map((todo, index) => (
         <TodoListItem
           key={index}
           todo={todo}
@@ -40,7 +56,8 @@ const TodoList = ({
 
 const mapStateToProps = (state) => ({
   isLoading: getTodosLoading(state),
-  todos: getTodos(state),
+  completedTodos: getCompleteTodos(state),
+  incompletedTodos: getIncompleteTodos(state),
 });
 
 const mapDispatchToProps = (dispatch) => ({
