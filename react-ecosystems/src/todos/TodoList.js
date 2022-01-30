@@ -5,7 +5,7 @@ import NewTodoForm from "./NewTodoForm";
 import TodoListItem from "./TodoListItem";
 import {
   getTodosLoading,
-  getCompleteTodos,
+  getCompletedTodos,
   getIncompleteTodos,
 } from "./selector";
 import {
@@ -60,7 +60,7 @@ const TodoList = ({
 
 const mapStateToProps = (state) => ({
   isLoading: getTodosLoading(state),
-  completedTodos: getCompleteTodos(state),
+  completedTodos: getCompletedTodos(state),
   incompletedTodos: getIncompleteTodos(state),
 });
 

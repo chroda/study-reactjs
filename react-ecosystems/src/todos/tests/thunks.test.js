@@ -5,7 +5,7 @@ import sinon from "sinon";
 import { loadTodos } from "../thunks";
 
 describe("The loadTodos thunk", () => {
-  it("Dispatches the correct actions in the success scenario", () => {
+  it("Dispatches the correct actions in the success scenario", async () => {
     const fakeDispatch = sinon.spy();
 
     const fakeTodos = [{ text: "1" }, { text: "2" }];
