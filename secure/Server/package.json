@@ -18,7 +18,7 @@
     "body-parser": "^1.19.1",
     "cors": "^2.8.5",
     "express": "^4.17.2",
-    "express-jwt": "^6.1.0",
+    "express-jwt": "^8.2.0",
     "jwks-rsa": "^2.0.5",
     "nodemon": "^2.0.15"
   }
